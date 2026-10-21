@@ -27,6 +27,7 @@
    - [Outputs and aggregation](#outputs-and-aggregation)
 - **[LeaderBoard Submission](#leaderboard-submission)**
    - [Submission Registration](#submission-registration)
+   - [Training Set](#training-set)
    - [Validation Sets](#validation-sets)
    - [Testset](#testset)
    - [Submission](#submission)
@@ -430,6 +431,31 @@ the verified registration email and the password created during registration.
 See the
 [account-registration guide](https://worldoracle-benchmark.github.io/submission/#access)
 for the complete approval and sign-in workflow.
+
+### Training Set
+
+The [WorldOracle training dataset](https://huggingface.co/datasets/WorldOracle/worldoracle-trainset)
+provides 1,779 AgiBot G2 trajectories and the fixed 2,089-episode ABC-130K
+selection used for YAM adaptation.
+
+Download the release with the Hugging Face CLI:
+
+```bash
+hf download WorldOracle/worldoracle-trainset \
+  --repo-type dataset \
+  --local-dir ./worldoracle-trainset
+```
+
+AgiBot G2 episodes are stored under
+`agibot_g2/<task>/epNNNNNN/`. Each episode contains synchronized three-view
+videos, `trajectory.parquet` with aligned actions and states,
+`calibration.json`, metadata, and checksums. For YAM, run the included exporter
+to download only the selected public ABC-130K episodes:
+
+```bash
+python3 download_abc130k_selected.py \
+  --output ./yam_abc130k_worldoracle_selected
+```
 
 ### Validation Sets
 
