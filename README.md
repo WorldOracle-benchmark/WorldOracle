@@ -545,7 +545,7 @@ You're welcome to join our WeChat group to discuss WorldOracle, share feedback,
 and ask questions.
 
 <p align="center">
-  <img src="assets/wechat-group-qr.jpg" alt="WorldOracle WeChat group QR code" width="260">
+  <img src="assets/wechat-group-qr.png" alt="WorldOracle WeChat group QR code" width="260">
 </p>
 
 ## Citation
