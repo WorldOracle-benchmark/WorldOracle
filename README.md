@@ -25,6 +25,7 @@
    - [Policy-rollout distribution](#policy-rollout-distribution)
    - [Targeted and resume-safe runs](#targeted-and-resume-safe-runs)
    - [Outputs and aggregation](#outputs-and-aggregation)
+- **[Validation Set Evaluation Results](VALIDATION_SET_EVALUATION_RESULTS.md)**
 - **[LeaderBoard Submission](#leaderboard-submission)**
    - [Submission Registration](#submission-registration)
    - [Training Set](#training-set)
