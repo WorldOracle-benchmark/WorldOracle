@@ -1,10 +1,10 @@
 # Validation Set Evaluation Results
 
-The tables below report validation-set scores. Where the source lists results
-as `test / validation`, only the validation value is shown. The
-WorldOracle-Core AgiBot G2 source table provides a single score per metric, so
-those values are reproduced as provided. A dash indicates that a multi-view
-score is unavailable.
+To support local self-evaluation and comparative analysis by researchers and developers, we present evaluation results for several representative models on the publicly released validation set (results for additional models are forthcoming).
+
+Please note that the validation set is substantially smaller and less diverse than the testing set used for online evaluation. Consequently, validation results may exhibit considerable variance and should be treated as indicative rather than definitive. For more robust and reliable evaluation results, participants are encouraged to provide complete registration information and apply for evaluation through the official [WorldOracle Leaderboard](https://worldoracle-benchmark.github.io/leaderboard.html).
+
+We will continue to reproduce additional open-source Action-Conditioned World Models (AC-WMs) and update the corresponding evaluation results.
 
 ## WorldOracle-Core
 
