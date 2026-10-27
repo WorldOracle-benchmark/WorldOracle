@@ -11,6 +11,12 @@
   <img src="assets/framework.png" alt="WorldOracle evaluation framework" width="100%">
 </p>
 
+## 🔥 News!!!
+
+* Oct 21, 2026: 🤗 We released the [AgiBot training set](https://huggingface.co/datasets/WorldOracle/worldoracle-trainset) to support model development and evaluation.
+* Oct 16, 2026: 🚀 The [WorldOracle online evaluation portal](https://worldoracle-benchmark.github.io/submission/) is now open for submissions.
+* Oct 15, 2026: 👋 We officially released **WorldOracle**, including the [project website](https://worldoracle-benchmark.github.io/), [evaluation code repository](https://github.com/WorldOracle-benchmark/WorldOracle), [technical report](https://arxiv.org/abs/2610.18826), [validation set](https://huggingface.co/datasets/WorldOracle/worldoracle-validation), and [test set](https://huggingface.co/datasets/WorldOracle/worldoracle-testset).
+
 ## Contents
 
 - **[Overview](#overview)**
